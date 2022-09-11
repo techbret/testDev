@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-white">
+      <div className="bg-zinc-50">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
             <h2 className="text-base font-semibold text-blue-900 uppercase tracking-wide">Strata Intel's</h2>
@@ -117,7 +117,7 @@ export default function Home() {
           </p>
           <a
             href="/"
-            className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-semibold rounded-md text-blue-900 bg-white hover:bg-blue-50 sm:w-auto"
+            className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-semibold rounded-md text-blue-900 bg-zinc-50 hover:bg-blue-50 sm:w-auto"
           >
             Learn More
           </a>
@@ -140,12 +140,12 @@ export default function Home() {
           </a>
           </div>
         </div>
-        <div className="mt-10 pb-12 bg-white sm:pb-16">
+        <div className="mt-10 pb-12 bg-zinc-50 sm:pb-16">
           <div className="relative">
             <div className="absolute inset-0 h-1/2 bg-gray-50" />
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-4xl mx-auto">
-                <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                <dl className="rounded-lg bg-zinc-50 shadow-lg sm:grid sm:grid-cols-3">
                   <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
                     <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">turnover and clinical errors</dt>
                     <dd className="order-1 text-5xl font-extrabold text-blue-600">Reduce</dd>

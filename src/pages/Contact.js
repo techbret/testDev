@@ -9,7 +9,7 @@ export default function Contact() {
   const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
+    <div className="overflow-hidden bg-zinc-50 py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
         <svg
           className="absolute left-full translate-x-1/2 transform"
@@ -178,7 +178,7 @@ export default function Contact() {
                       aria-hidden="true"
                       className={classNames(
                         agreed ? 'translate-x-5' : 'translate-x-0',
-                        'inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out'
+                        'inline-block h-5 w-5 transform rounded-full bg-zinc-50 shadow ring-0 transition duration-200 ease-in-out'
                       )}
                     />
                   </Switch>
